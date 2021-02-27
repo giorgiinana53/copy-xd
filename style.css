@@ -1,0 +1,558 @@
+body{
+    background-color: #F9B205;
+}
+.box{
+    position: absolute;
+    width:90%;
+    height: 79%;
+    background-color: white;
+    margin-top: 5%;
+    margin-left: 4.5%;
+    box-shadow: 0 4px 6px 6px rgba(0, 0, 0, 0.1) , 3px 6px 20px 8px rgba(0, 0, 0, 0.19);
+} 
+.color{
+    width: 280px;
+    height: 549px;
+    background-color: #F9B205;
+    position: absolute;
+}
+.text {
+    position: absolute;
+    bottom: 90%;
+    left: 55%;
+    display: flex;
+    justify-content:space-around;
+    list-style:none ;
+}
+.box .text li a{
+    text-decoration: none;
+    color:  black;
+    font-family:sans-serif;
+    font-weight: bold;
+    font-size: 15px;
+}
+nav ul li a {
+    margin-right: 110px;
+}
+.text{
+    left: 560px;
+    z-index: 1;
+}
+.Home-box{
+    width: 42px;
+    height: 8px;
+    background-color: #F9B205;
+    position: absolute;
+    margin-right: 587px;
+    margin-top: 9px;
+    z-index: -1;
+}
+i{
+    cursor: pointer;
+}
+i:nth-child(1){
+    position: absolute;
+    z-index: 1;
+    font-size: 25px;
+    margin-left: 220px;
+    margin-top: 40px;
+}
+i:nth-child(2){
+   position: absolute;
+   z-index: 1;
+   font-size: 25px;
+   margin-left: 120px;
+   margin-top: 40px;
+}
+img{
+    position: absolute;
+    z-index: -5;
+    padding-top:90px;
+    padding-left: 80px;
+    z-index: 0;
+}
+.pvideo{
+    position:absolute;
+    width: 320px;
+    height: 70px;
+    background-color: black;
+    z-index: 1;
+    margin-top: 420px;
+    margin-left: 80px;
+    color: #F9B205;
+}
+.numbers h4{
+   padding-top: 3px;
+   position: relative;
+   display: inline-flex;
+}
+.numbers h4:nth-child(2){
+   padding-left: 260px;
+   color: #F9B205 ;
+}
+.numbers h4:nth-child(1){
+   padding-left: 10px;
+ }
+.triagle{
+    display:flex;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    width: 0;
+    height: 0;
+    margin: 0;
+    justify-content:center;
+    align-items: center;
+    padding-left: 80px;
+    padding-top: 35px;
+    
+}
+.button > h2{
+    position: absolute;
+    margin-top: -5px;
+    right: 45px;
+}
+.triagle-left{
+    border-top: 10px solid black;
+    border-right: 10px solid transparent;
+    margin-left: 30px solid transparent;
+    transform: rotate(-45deg);
+}
+.triagle-right{
+    border-bottom: 10px solid black;
+    border-left: 10px solid transparent;
+    border-left:10px solid transparent;
+    transform: rotate(-45deg);
+}
+.triagle-box{
+    position: absolute;
+    width: 160px;
+    height: 70px;
+    background-color: #F9B205;
+    margin-left: 461px;
+    margin-top: 488px;
+}
+.line-one{
+    width: 220px;
+    height: 2px;
+    background-color: #707070;
+    margin-left: 50px;
+    margin-top: -30px;
+}
+.line-two{
+    width: 90px;
+    height: 3px;
+    background-color: #F9B205;
+    margin-top: -4px;
+    margin-left: 65px;
+}
+.fashion{
+    position: absolute;
+    margin-left: 600px;
+    margin-top: 105px;
+    font-family: sans-serif;
+    background-color: #707070;
+    width:58px;
+    height: 20px;
+    color: white;
+    padding-top: 3px;
+    padding-left: 5px;
+}
+h1{
+    position: absolute;
+    margin-left: 600px;
+    margin-top: 150px;
+    font-family: sans-serif;
+    font-size: 45px;
+}
+p{
+    display: flex;
+    position: absolute;
+    margin-left: 600px;
+    margin-top: 220px;
+    font-family: sans-serif;
+}
+h3{
+    position: absolute;
+    margin-left: 600px;
+    margin-top: 300px;
+    font-family: sans-serif;
+    cursor: pointer;
+}
+.one-triagle{
+    display:flex;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    width: 0;
+    height: 0;
+    margin: 0;
+}
+.only-triagle{
+    border-bottom: 10px solid black;
+    border-left: 10px solid transparent;
+    border-left:10px solid transparent;
+    transform: rotate(-45deg);
+    margin-left: 715px;
+    margin-top: 307px;
+    cursor: pointer;
+}
+h6{
+    position: absolute;
+    margin-left: 600px;
+    font-size: 15px;
+    font-family: sans-serif;
+    margin-top: 380px;
+}
+.email{
+    font-size: 15px;
+    position: absolute;
+    margin-left:600px;
+    margin-top: 423px;
+    width: 320px;
+    height: 65px;
+    outline: none;
+    border: none;
+    padding-left: 10px;
+    box-shadow:0 3px 5px 3px rgba(90, 84, 84, 0.1) , 3px 1px 4px 2px rgba(88, 82, 82, 0.1) ;
+}
+.button{
+    position: absolute;
+    font-size: 13px;
+    background-color: #F9B205;
+    font-family: sans-serif;
+    font-weight:bold;
+    width: 140px;
+    height: 42px;
+    margin-left: 925px;
+    margin-top: 422px;
+    padding-left: 60px;
+    padding-top: 27px;
+    cursor: pointer;
+}
+.button h2{
+    margin-right: 10px;
+    margin-top: -2px;
+}
+@media(max-width:1085px){
+    .box{
+        position: absolute;
+        width:88%;
+        height: 80%;
+    }
+    nav ul li{
+        margin-left: 10%;
+        z-index: 1;
+    }
+    nav ul li a {
+        margin-right: 50px;
+    }
+    .text{
+        position: absolute;
+        right: 160px;
+    }
+    .box , .story , p{
+        display:inline-flexbox;
+    }
+    .Home-box{
+        width: 42px;
+        height: 8px;
+        background-color: #F9B205;
+        margin-right: 384px;
+    }
+    img{
+        width: 380px;
+        height: 270px;
+        right: 520px;
+    }
+    .color{
+        width: 200px;
+        height: 487px;
+    }
+    .box i{
+        position: absolute;
+        font-size: 20px;
+        margin-top: 53px;
+    }
+    .triagle-left{
+        border-top: 7px solid black;
+        border-right: 7px solid transparent;
+        margin-left: 30px solid transparent;
+        transform: rotate(-45deg);
+    }
+    .triagle-right{
+        border-bottom: 7px solid black;
+        border-left: 10px solid transparent;
+        border-left:7px solid transparent;
+        transform: rotate(-45deg);
+    }
+    i:nth-child(1){
+        margin-left: 150px;
+    }
+    i:nth-child(2){
+       margin-left: 75px;
+    }
+    .pvideo{
+        right: 650px;
+        margin-top:  360px;
+        width: 250px;
+        height: 60px;
+    }
+    .triagle-box{
+        margin-top: 414px;
+        right: 593px;
+        width: 130px;
+        height: 60px;
+    }
+    .triagle{
+        margin-left: -15px;
+        margin-top: -4px;
+    }
+    .line-one{
+        width: 150px;
+        margin-top: -97px;
+    }
+    .line-two{
+        width: 70px;
+    }
+    .one-two{
+        top: -65px;
+        right: 37px;
+    }
+    .fashion{
+        right: 450px;
+        width: 45px;
+        height: 16px;
+        font-size: 11px;
+    }
+    h1{
+        font-size: 35px;
+        top: -18px;
+        margin-left: 452px;
+    }
+    p{
+        font-size: 13px;
+        right: 185px;
+    }
+    h3{
+        font-size: 15px;
+        top: 5px;
+        float: left;
+        margin-left:455px ;
+    }
+    .story{
+        position: relative;
+        bottom: 42px;
+        right:145px;
+        line-height: 13px;
+    }
+    .one-triagle{
+        position: absolute;
+        margin-right: 400px;
+        top: 5px;
+    }
+    .only-triagle{
+        border-bottom: 8px solid black;
+        border-left: 8px solid transparent;
+        border-left:8px solid transparent;
+        transform: rotate(-45deg);
+        cursor: pointer;
+    }
+    h6{
+        bottom: 100px;
+        margin-left: 450px;
+    }
+    .email{
+        width: 250px;
+        height: 56px;
+        margin-top: 362px;
+        right: 240px;
+    }
+    .button{
+        height: 33px;
+        margin-top: 362px;
+        right:39px;
+        position: absolute;
+        padding-top: 25px;
+    }
+    div .button h2{
+        margin-top: -4px;
+        font-size: 15px;
+
+    }
+    .pvideo .numbers .two-one{
+        top: -3px;
+    }
+}
+
+@media(max-width:999px){
+    nav ul li a {
+        margin-right: 70px;
+    }
+    nav .text {
+        margin-top: 20px;
+    }
+    .color{
+        height: 486px;
+    }
+    nav ul li{
+        margin-left: 9%;
+        z-index: 1;
+    }
+    .Home-box{
+        right: -158px;
+    }
+    img{
+        width: 330px;
+        height: 250px;
+        margin-right: -30px;
+    }
+    .pvideo{
+        margin-right: -30px;
+        margin-top:  340px;
+        width: 220px;
+        height: 50px;
+    }
+    .triagle-box{
+        margin-top: 412px;
+        left: -139px;
+        width: 130px;
+        height: 50px;
+    }
+    .triagle{
+        margin-top: -10px;
+        margin-left: -24px;
+    }
+    .line-one{
+        width: 120px;
+    }
+    .line-two{
+        width: 50px;
+    }
+    .one-two{
+        right: 70px;
+        margin-top: 20px;
+    }
+    .numbers > .one-two {
+        right: 40px;
+    }
+    .fashion{
+        margin-right: -37px;
+    }
+    h1{
+        font-size: 25px;
+        top: -22px;
+        left: -5px;
+    }
+    .story p {
+        top: -10px;
+        right: 40px;
+        line-height: 12px;
+    }
+    .story{
+        right: 182px;
+    }
+    h3{
+        top: -40px;
+        margin-left: 415px;
+    }
+    .one-triagle , .only-triagle{
+        margin-left: 249px;
+        margin-top: 130.5px;
+    }
+    .triagle-box > .triagle-left{
+        left: 40px;
+    }
+    .email{
+        width: 200px;
+        height: 49px;
+        margin-top: 342px;
+        right: 250px;
+    }
+    h6{
+        top: -70px;
+        margin-left: 418px;
+    }
+    .button{
+        width: 110px;
+        height: 26px;
+        margin-top: 342px;
+        margin-right: 40px;
+        position: absolute;
+        padding-top: 25px;
+    }
+    .button h2{
+        right: 28px;
+    }
+    div .button h2{
+        margin-top: -8px;
+        font-size: 15px;
+
+    }
+}
+@media(max-width:1050px){
+    nav ul li a {
+        margin-right: 50px;
+    }
+    img{
+        width: 350px;
+        height: 250px;
+        right: 510px;
+    }
+    .pvideo{
+        right: 640px;
+        margin-top:  340px;
+        width: 220px;
+        height: 55px;
+    }
+    .triagle-box{
+        height: 55px;
+        top: -14px;
+        right:  581px;
+    }
+    .button > h2{
+        margin-right: 20px;
+    }
+    .triagle{
+        margin-top: -7px;
+    }
+    .Home-box{
+        margin-right: 380px;
+    }
+    .line-one{
+        width: 120px;
+    }
+    .line-two{
+        width: 50px;
+    }
+    .numbers > .one-two {
+        margin-left: -30px;
+    }
+    .numbers{
+        margin-top: -3px;
+    }
+    .story {
+        line-height: 13px;
+    }
+}
+@media(max-width:1030px){
+    
+}
+@media(max-width:1050px){
+    h1{
+        margin-left: 420px;
+    }
+    .button > h2{
+        margin-right: 20px;
+    }
+    .story{
+    line-height: 5px;
+    }
+}
+@media(max-width:1075px){
+    .story p{
+         line-height: 11px;
+    }
+}
